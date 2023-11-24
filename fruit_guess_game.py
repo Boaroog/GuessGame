@@ -69,7 +69,7 @@ def game():
             print(f"You guessed my favourite fruits in {attempts} tries!")
             break
 
-        print(f"Correct Positions: {correct_pos} | Incorrect Position: {incorrect_pos}")
+        print(f"Correct Positions: {correct_pos} | Incorrect Positions: {incorrect_pos}")
 
     else:
         print("You ran out of tries, the code, the code was: ", *fav_fruits)
