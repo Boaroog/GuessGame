@@ -25,7 +25,7 @@ def guess_fav_fruits():
 
         for fruit in guess:
             if fruit not in fruits:
-                print(f"Invalid color: {fruit}. Try your luck again.")
+                print(f"Invalid fruit: {fruit}. Try your luck again.")
                 break
         else:
             break
