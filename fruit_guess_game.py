@@ -1,6 +1,6 @@
 import random
 
-fruits = ["BANANA", "GRAPE", "DATES", "BERRY", "APPLE", "MANGO"]
+fruits = ["BANANA", "GRAPE", "DATES", "ORANGE", "APPLE", "MANGO"]
 Tries = 5
 fav_fruits_length = 3
 
