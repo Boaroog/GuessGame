@@ -78,7 +78,7 @@ def game():
     else:
         print("You ran out of tries, the guess was: ", *fav_fruits)
 
-# Function to play the Jackpot Riddle Game
+# Function to play the Jackpot Puzzle Game
 
 
 def play_jackpot_game():
