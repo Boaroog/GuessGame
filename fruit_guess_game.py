@@ -83,7 +83,7 @@ def game():
 
 def play_jackpot_game():
     questions = {
-        "When was ReDI established?": "2015",
+        "When was ReDI School founded?": "2015",
         "What has keys but can't open locks?": "Piano",
         "The more you take, the more you leave behind. What am I?": "Footsteps"
     }
