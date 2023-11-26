@@ -107,7 +107,7 @@ def play_jackpot_game():
     if correct_answers == 5:
         print("Congratulations! You have won a Jackpot of $1,000,000! PLEASE SPEND IT WISELY")
     else:
-        print("Sorry, you failed to answer all three questions correctly. Try again next Year")
+        print("Sorry, you failed to answer all five questions correctly. Try again next Year")
 
 
 if __name__ == "__main__":
