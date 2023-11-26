@@ -85,11 +85,13 @@ def play_jackpot_game():
     questions = {
         "When was ReDI School founded?": "2015",
         "What has keys but can't open locks?": "Piano",
-        "The more you take, the more you leave behind. What am I?": "Footsteps"
+        "The more you take, the more you leave behind. What am I?": "Footsteps",
+        "What gets wetter and wetter the more it dries?": "Towel",
+        "What is always coming but never arrives?": "Tomorrow"
     }
 
     print(f"Welcome to your next CHALLENGE, the JACKPOT PUZZLE GAME!")
-    print("You have to answer three questions correctly with one attempt only on each question.")
+    print("You have to answer five questions correctly with one attempt only on each question.")
 
     correct_answers = 0
 
@@ -102,7 +104,7 @@ def play_jackpot_game():
         else:
             print("Wrong answer.")
 
-    if correct_answers == 3:
+    if correct_answers == 5:
         print("Congratulations! You have won a Jackpot of $1,000,000! PLEASE SPEND IT WISELY")
     else:
         print("Sorry, you failed to answer all three questions correctly. Try again next Year")
