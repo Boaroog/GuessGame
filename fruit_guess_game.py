@@ -83,7 +83,7 @@ def game():
 
 def play_jackpot_game():
     questions = {
-        "What has a bottom at the top?": "Your Legs",
+        "When was Redi School founded?": "2015",
         "What has keys but can't open locks?": "Piano",
         "The more you take, the more you leave behind. What am I?": "Footsteps",
         "What gets wetter and wetter the more it dries?": "Towel",
