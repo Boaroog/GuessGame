@@ -17,7 +17,7 @@ def generate_fav_fruits():
 
     return fav_fruits
 
-
+# Allowing the player or user to guess the favourite fruits (fav_fruits)
 def guess_fav_fruits():
     while True:
         guess = input("Guess: ").upper().split(" ")
@@ -28,7 +28,7 @@ def guess_fav_fruits():
 
         for fruit in guess:
             if fruit not in fruits:
-                print(f"Invalid fruit: {fruit}. Try your luck again.")
+                print(f"Invalid fruit: {fruit}. Try again.")
                 break
         else:
             break
@@ -60,7 +60,7 @@ def check_fav_fruits(guess, real_fav_fruits):
 
 
 def game():
-    print(f"Welcome to my Favourite Fruits Guess Game, you have {Tries} attempts to guess the right fruit(s)....")
+    print(f"Welcome to the Fruit Guess Game, you have {Tries} attempts to guess my favourite fruit(s)....")
     print("The valid favourite fruits are:", *fruits)
 
     fav_fruits = generate_fav_fruits()
