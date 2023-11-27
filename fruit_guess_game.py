@@ -83,11 +83,11 @@ def game():
 
 def play_jackpot_game():
     questions = {
-        "When was ReDI School founded?": "2015",
+        "What has a bottom at the top?": "Your Legs",
         "What has keys but can't open locks?": "Piano",
         "The more you take, the more you leave behind. What am I?": "Footsteps",
         "What gets wetter and wetter the more it dries?": "Towel",
-        "What is always coming but never arrives?": "Tomorrow"
+        "What has a single eye but cannot see?": "Needle"
     }
 
     print(f"Welcome to your next CHALLENGE, the JACKPOT PUZZLE GAME!")
